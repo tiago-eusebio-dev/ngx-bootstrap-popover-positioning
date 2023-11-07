@@ -7,7 +7,7 @@
       name="my-input"
       placeholder="Click me to open a popover!"
       #myPopover="bs-popover"
-      [popover]="myPopover"
+      [popover]="myPopoverPanel"
       triggers=""
       container="body"
       placement="bottom left"
@@ -21,6 +21,6 @@
   </div>
 </div>
 
-<ng-template #myPopover>
+<ng-template #myPopoverPanel>
   <div class="popover">This is a popover!</div>
 </ng-template>
