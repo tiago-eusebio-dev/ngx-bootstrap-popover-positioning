@@ -1,0 +1,26 @@
+<div class="component">
+  <div class="input">
+    <label for="my-input">My input</label>
+
+    <input
+      #input
+      name="my-input"
+      placeholder="Click me to open a popover!"
+      #myPopover="bs-popover"
+      [popover]="myPopover"
+      triggers=""
+      container="body"
+      placement="bottom left"
+      boundariesElement="viewport"
+      containerClass="popover-container"
+      [outsideClick]="true"
+      [adaptivePosition]="true"
+      (click)="onToggleCalendar()"
+      (onHidden)="onPopoverHide()"
+    />
+  </div>
+</div>
+
+<ng-template #myPopover>
+  <div class="popover">This is a popover!</div>
+</ng-template>

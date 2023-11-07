@@ -1,0 +1,37 @@
+.component {
+  padding: 16px;
+
+  .input {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    label {
+      color: #65798f;
+    }
+
+    input {
+      border: 1px solid #dfe4eb;
+      background-color: #fefefe;
+      border-radius: 4px;
+      padding: 5px;
+
+      &:hover,
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}
+
+.popover {
+  display: flex;
+  height: 258px;
+  width: 306px;
+  margin: 5px 0;
+  border-radius: 4px;
+  border: 1px solid #dfe4eb;
+  background-color: #fefefe;
+  justify-content: center;
+  align-items: center;
+}

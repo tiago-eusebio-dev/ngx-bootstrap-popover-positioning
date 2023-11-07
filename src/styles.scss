@@ -1,0 +1,24 @@
+/* Add application styles & imports to this file! */
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  padding: 7px;
+
+  *,
+  :after,
+  :before {
+    box-sizing: border-box;
+  }
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-kerning: none;
+  color: #002c52;
+  background-color: #f3f7fe;
+  line-height: unset;
+  overflow: hidden;
+}
